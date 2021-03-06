@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form method="POST">
+        <div>Имя регистрирующего вакансию: <input type="text" name="regFirstName" id="signup-regFirstName"></div>
+        <div>Фамилия регистрирующего вакансию: <input type="text" name="regLastName" id="signup-regLastName"></div>
+        <div>Название вакансии: <input type="text" name="name" id="signup-name"></div>
+        <div>Тип: <input type="text" name="phone" id="signup-type"></div>
+        <div>active:
+            <div> <input type="radio" value="active" name="active" checked class="active">active</div>
+            <div><input type="radio" value="no_active" name="active" class="active">no_active</div>
+        </div>
+        <input type="submit" value="send" id="signup-submit">
+    </form>
+
+    <script src="/condidates/script/ajax.js"></script>
+    <script src="/condidates/script/script.js"></script>
+</body>
+
+</html>
